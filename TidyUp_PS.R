@@ -103,3 +103,4 @@ print(advanceddegree_men_bias)
 # high school graduates who are men
 highschoolgraduate_men_bias= mean(tbl_clean$bias(filter(tbl_clean, tbl_clean$gender==1 & tbl_clean$edu=='highschool graduate'))) #not work
 print(highschoolgraduate_men_bias)
+
